@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: bisque;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    flex: 1;
+    margin-right: 1em;
+}
+
+#master{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#master li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 0.5em;
+}
+
+#master li button{
+    padding: 0.5em;
+}
